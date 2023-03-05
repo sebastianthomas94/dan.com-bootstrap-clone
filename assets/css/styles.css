@@ -1,0 +1,53 @@
+.astronauts, .main-astronauts{
+    background-color: #00112C;
+    color: aliceblue;
+}
+
+
+
+.astronauts h1{
+    text-align: center;
+}
+
+.floor{
+
+    width: 100%;
+
+}
+
+.cards-1{
+    text-align: center;
+}
+
+.link-color-1{
+    color: black;
+}
+
+.heading-1{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.section-1{
+    background-color: #F2F3F4;;
+}
+
+.section-3{
+    
+    background-color: #04294F;
+    color: #F2F3F4;
+}
+
+.section-div{
+padding-top: 9rem;
+
+padding-bottom: 9rem;
+
+}
+
+footer {
+    padding-top: 9rem;
+    padding-bottom: 2.75rem;
+    background: #00112C;
+    color: #ffffff;
+}

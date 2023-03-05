@@ -1,0 +1,9 @@
+nav{
+    background-color: #00112C;
+    
+}
+
+.logo{
+    
+    filter: invert(100%) grayscale(100%) brightness(200%);
+}
