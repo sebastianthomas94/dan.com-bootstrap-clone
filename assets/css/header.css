@@ -1,9 +1,18 @@
 nav{
     background-color: #00112C;
+
+
     
 }
 
 .logo{
     
     filter: invert(100%) grayscale(100%) brightness(200%);
+}
+
+.navbar-fonts{
+    color: aliceblue !important;
+    font-size: 150% !important;
+    font-weight: bolder !important;
+ 
 }
