@@ -12,7 +12,7 @@
 </head>
 <body class="">
   <nav class="navbar navbar-expand-lg navbar-dark py-5 px-5">
-    <img class="d-sm-none d-lg-inline-block" src="./assets/img/logo+brand.png" alt="">
+    <img class="d-sm-none d-lg-inline-block d-none" src="./assets/img/logo+brand.png" alt="">
     <img class="d-sm-inline-block d-lg-none" src="./assets/img/Logo.png" alt="">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -45,30 +45,37 @@
   </nav>
 
   <div class="main-astronauts">
-    <div class="container astronauts">
+    <div class="container-fluid astronauts">
       <div class="row">
-        <div class="col   ">
-          <img src="./assets/img/wallpaper-left.svg" alt="">
+        <div class="col px-0 mx-0 order-xs-2 ">
+          <img class="w-100" src="./assets/img/wallpaper-left.svg" alt="">
         </div>
-        <div class="col ">
-          <div class="row ">
-            <div class="col ">
+        <div class="col px-0 mx-0 order-xs-1">
+          <div class="row  px-0 mx-0">
+            <div class="col  px-0 mx-0">
               <h1>Claim your space in the digital world</h1>
             </div>
           </div>
           <div class="row ">
-            <div class="col m-100 ">
-              <center><input type="text" class="" placeholder="Search"></center>
+            <div class="col m-100  ">
+              <center>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control rounded" placeholder="Think of a domain" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  <div class="input-group-append mx-3">
+                    <button class="btn btn-outline-secondary" type="button">Search</button>
+                  </div>
+                </div>
+              </center>
             </div>
           </div>
-          <div class="row floor  ">
-            <div class="col ">
-              <!-- <img class="hidden-sm" src="./assets/img/floor.svg" alt=""> -->
+          <!-- <div class="row floor h-50 align-content-end w-100 px-0 m-0 py-3">
+            <div class="col w-100 px-0 mx-0">
+              <img class="" src="./assets/img/floor.svg" alt="">
             </div>
-          </div>
+          </div> -->
         </div>
-        <div class="col  ">
-          <img src="./assets/img/wallpaper-right.svg" alt="">
+        <div class="col  px-0 mx-0 order-xs-3">
+          <img class="w-100" src="./assets/img/wallpaper-right.svg" alt="">
         </div>
       </div>
     </div>
@@ -258,12 +265,12 @@
                       <button aria-expanded="false" aria-haspopup="true" class="btn btn-default dropdown-toggle" data-bs-toggle="dropdown" id="locale-dropdown" type="button" fdprocessedid="ulmvf9">English</button>
                       <div class="dropdown-menu dropdown-menu-right">
                           <ul class="list-group">
-                              <a rel="nofollow" class="list-group-item" href="?new_locale=nl-nl&amp;">Nederlands</a>
-                              <a rel="nofollow" class="list-group-item" href="?new_locale=es-es&amp;">Español</a>
-                              <a rel="nofollow" class="list-group-item" href="?new_locale=hi-in&amp;">हिंदी</a>
-                              <a rel="nofollow" class="list-group-item" href="?new_locale=de-de&amp;">Deutsch</a>
-                              <a rel="nofollow" class="list-group-item" href="?new_locale=fr-fr&amp;">Français</a>
-                              <a rel="nofollow" class="list-group-item" href="?new_locale=zh-cn&amp;">中文</a>
+                              <a rel="nofollow" class="list-group-item" href="">Nederlands</a>
+                              <a rel="nofollow" class="list-group-item" href="">Español</a>
+                              <a rel="nofollow" class="list-group-item" href="">हिंदी</a>
+                              <a rel="nofollow" class="list-group-item" href="">Deutsch</a>
+                              <a rel="nofollow" class="list-group-item" href="">Français</a>
+                              <a rel="nofollow" class="list-group-item" href="">中文</a>
                           </ul>
                       </div>
                   </div>
